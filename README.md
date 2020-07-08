@@ -4,6 +4,8 @@ This is a Dockerfile for deploying the Ocaml [Ocsigen-start](http://ocsigen.org/
 
 It includes the eliom web framework.  Image size is 2.93GB.
 
+**Please see [heroku-ocsigen-start-thin](https://github.com/wrmack/heroku-ocsigen-start-thin/tree/master) for a Dockerfile which creates an image of only 519MB and which loads much quicker in Heroku.**
+
 ## Assumptions
 - you have a Heroku plan
 - you have Docker installed
